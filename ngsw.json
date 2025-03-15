@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "timestamp": 1742050189317,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/8.1acfe93bd5b0117b.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.5c34e40244e44310.js",
+        "/manifest.webmanifest",
+        "/polyfills.a3ecb70d4882637a.js",
+        "/runtime.53b5bfe5ed72930e.js",
+        "/styles.99cc27e764ee4257.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/coin.png",
+        "/assets/logo.png",
+        "/assets/nftnow_icon_128.png",
+        "/assets/nftnow_icon_256.png",
+        "/assets/nftnow_icon_32.png",
+        "/assets/nftnow_icon_512.png",
+        "/assets/nftnow_icon_64.png",
+        "/assets/titre_appli.png",
+        "/assets/titre_appli_devnet.png",
+        "/jsoneditor-icons.94cc300788573d38.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/8.1acfe93bd5b0117b.js": "27d1693cbf1d3292a13510e3f75707706a7d683d",
+    "/assets/coin.png": "5009382dff3a6389b0efee7ba258f6aa2d4776c7",
+    "/assets/logo.png": "fb918726ee2e78866a5a67363bbf077558c7b950",
+    "/assets/nftnow_icon_128.png": "1f659b54ce26485cac37cdaf556835219ec1fc77",
+    "/assets/nftnow_icon_256.png": "d6e49e913828f4f63a1ccbfe4ce4715f45afc57f",
+    "/assets/nftnow_icon_32.png": "1becc3b6f6c706df8d982ae690f6d0f9282b8baf",
+    "/assets/nftnow_icon_512.png": "fb918726ee2e78866a5a67363bbf077558c7b950",
+    "/assets/nftnow_icon_64.png": "e5b6b369f7420b572381a66a1e8a05ba4f49dbf7",
+    "/assets/titre_appli.png": "da4cb6f4d11285dac81c3d65549b21f683a61062",
+    "/assets/titre_appli_devnet.png": "438ae3b8ddefd0e6f7ba1b246359745eff6de5de",
+    "/favicon.ico": "1f659b54ce26485cac37cdaf556835219ec1fc77",
+    "/index.html": "92de3814e4a027337d5eeb6f9adf230838ef058e",
+    "/jsoneditor-icons.94cc300788573d38.svg": "ab494ea3944f654d927ce67bc0b515de6c84d836",
+    "/main.5c34e40244e44310.js": "620cfc04bff3ef0375c7353854253f0047d1af60",
+    "/manifest.webmanifest": "040bbd44f7c041a7ad9821d86d7d67ca50424f9b",
+    "/polyfills.a3ecb70d4882637a.js": "0e6a15d01073aebc7873a5511c7cae9f27f8f468",
+    "/runtime.53b5bfe5ed72930e.js": "c2b209e0588796196f75d6e6f0d576748f99dbee",
+    "/styles.99cc27e764ee4257.css": "fbcb174666cfdbda8cb7dac077054a3864c850d5"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
